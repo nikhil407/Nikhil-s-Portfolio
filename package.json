@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-chatbot-training",
+  "version": "1.0.0",
+  "description": "Training data generator for portfolio website chatbot",
+  "main": "generate_all_qa.js",
+  "scripts": {
+    "generate": "node generate_all_qa.js",
+    "generate-qa": "node generate_qa.js",
+    "generate-mass": "node generate_mass_qa.js",
+    "generate-answers": "node generate_answers.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "child_process": "^1.0.2"
+  },
+  "author": "Nikhil Prajapati",
+  "license": "MIT"
+} 
